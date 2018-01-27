@@ -17,7 +17,7 @@
 			        <nav class="navbar navbar-fixed-top navbar-inverse bar">
 			      <div class="container">
 			        <div class="navbar-header">
-				         <audio id="play" controls="controls"> <source src="music/play.mp3" type="audio/mp3" />Your browser does not support this audio format. </audio>
+				         <audio controls="controls"> <source src="music/play.mp3" type="audio/mp3" />Your browser does not support this audio format. </audio>
 			          <a class="navbar-brand" id="title" href="#">Creeper的宇宙</a>
 			        </div>
 			      </div><!-- /.container -->

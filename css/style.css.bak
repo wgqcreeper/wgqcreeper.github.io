@@ -4,7 +4,3 @@
      font-family:"宋体";
      
    }
-#play{
-            background:url(/assets/ba.jpg);
-
-          }
