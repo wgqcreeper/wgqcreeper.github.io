@@ -44,11 +44,15 @@
 			     <div class="list-group" id="linkp">
 	            <a href="#" class="list-group-item list-group-item-info">一些实用的东西</a>
 	          </div>
-			    
-     
+			      
 			      
 			     </div>
-			    
+		  <div id="dropdown" class="navbar navbar-inverse center-block"><p class="navbar-brand">Practice Makes Perfects!</p></div>     
+			     
+			     
+			   </div>
+			  
+			  
 			  
 			  
 			  
