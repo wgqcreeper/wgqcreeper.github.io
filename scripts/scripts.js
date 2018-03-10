@@ -1,5 +1,5 @@
 var links=[
- "NaP 硅的红茶馆@https://npofsi.pro",
+ "东方铃奈庵@blog.npofsi.pro",
  "W3School@http://www.w3school.com.cn/"
 ];
 links.forEach(function(v){
