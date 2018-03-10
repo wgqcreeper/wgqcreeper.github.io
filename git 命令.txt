@@ -1,0 +1,7 @@
+git init
+git config --global user.name"myname"
+git config --global user.email "test@gmail.com"
+git add -A
+git commit -m "new"
+git push origin master
+
