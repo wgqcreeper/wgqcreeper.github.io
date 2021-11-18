@@ -8,24 +8,36 @@
 <body>
 <div id="app">
   <ul>
-    <li v-for="stars in starCount" :class="{star : isActive}" :key="stars.id"
+    <li v-for="stars in starCount" class="star" :key="stars.id"
         :style="{top: stars.top + 'px',left: stars.left + 'px',animationDelay: stars.delay + 's',borderWidth: stars.width + 'px',borderLeftWidth: stars.length + 'px'}"></li>
   </ul>
-</div>
-<!--<div class="con">
 
-</div>-->
+</div>
+<div class="con">
+  <div class="codes">
+    <p>
+      int day=0;<br>
+      while(!World.destory())<br>
+      {<br>
+      day++;<br>
+      cout<<"WGQ LOVE LSY FOREVER";<br>
+      }<br>
+    </p>
+  </div>
+
+</div>
 
 </body>
 
-<script src="vue.js"></script>
+<script src="js/vue.js"></script>
 
 <script>
   const app=new Vue({
     el: "#app",
     data: {
-      isActive :true,
+      value1 :true,
       starCount: [],
+
     },
     methods: {
       InitStar()
@@ -52,6 +64,7 @@
       this.InitStar();
     },
   })
+
 </script>
 
 </html>
