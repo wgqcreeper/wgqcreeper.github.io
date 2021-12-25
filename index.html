@@ -1,70 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="style/star.css">
+  <title>CodePen - happy chrismas</title>
+  <link rel="stylesheet" href="./style.css">
+   <!-- <div class="video_exist play_yinfu" id="auto_btn" style="display:block;z-index:999999;">
+        <div id-"yinfu" class-"rotate"></div>
+    </div> -->
 </head>
 <body>
-<div id="app">
-  <ul>
-    <li v-for="stars in starCount" class="star" :key="stars.id"
-        :style="{top: stars.top + 'px',left: stars.left + 'px',animationDelay: stars.delay + 's',borderWidth: stars.width + 'px',borderLeftWidth: stars.length + 'px'}"></li>
-  </ul>
+<!-- partial:index.partial.html -->
+<!-- particles.js container -->
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
-</div>
-<div class="con">
-  <div class="codes">
-    <p>
-      int day=0;<br>
-      while(!World.destory())<br>
-      {<br>
-      day++;<br>
-      cout<<"WGQ LOVE LSY FOREVER";<br>
-      }<br>
-    </p>
-  </div>
+<span class = 'text'><br>
+  <span>wgq </span>♥<span> lsy</span>
+  <br>merry christmas 
+</span>
 
-</div>
+<div id="particles-js"></div> 
+
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
 
 </body>
-
-<script src="js/vue.js"></script>
-
-<script>
-  const app=new Vue({
-    el: "#app",
-    data: {
-      value1 :true,
-      starCount: [],
-
-    },
-    methods: {
-      InitStar()
-      {
-        for(let i=0;i<40;i++)
-        {
-          let star={};
-          let top=parseInt(Math.random()*800);
-          let left=parseInt(Math.random()*1500);
-          let delay=parseInt(Math.random()*50);
-          let width=parseInt(Math.random()*3);
-          let length=parseInt(100+Math.random()*100);
-          star.id=i;
-          star.left=left;
-          star.top=top;
-          star.delay=delay;
-          star.width=width;
-          star.length=length;
-          this.starCount.push(star);
-        }
-      },
-    },
-    created(){
-      this.InitStar();
-    },
-  })
-
-</script>
-
 </html>
